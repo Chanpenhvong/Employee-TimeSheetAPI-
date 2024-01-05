@@ -1,0 +1,26 @@
+### Get request
+GET https://localhost:7192/employees
+
+### Get request by id
+GET https://localhost:7192/employees/1
+
+### Post request
+POST https://localhost:7192/employees
+Content-Type: application/json
+
+{ 
+    "Id": 4,
+    "Name": "Chintala"
+}
+
+### Put request
+PUT https://localhost:7192/employees
+Content-Type: application/json
+
+{
+    "Id": 4,
+    "Name": "Chintol"
+}
+
+### Delete request
+DELETE https://localhost:7192/employees/4
